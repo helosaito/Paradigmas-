@@ -1,1 +1,23 @@
+Python
+a) [1] e [1, 2]
+b) Parâmetro padrão mutável: a mesma lista é reutilizada entre as chamadas
 
+Java
+a) 0 5
+b) Passagem por valor: o array pode ter seu conteúdo alterado, mas a variável primitiva n não muda no chamador     
+
+Python
+a) [2, 2, 2]
+b) Fechamento (closure): as lambdas capturam a variável i, e não uma cópia do valor dela   
+
+C
+a) 3
+b) Variável local static: ela mantém o valor entre as chamadas da função   
+
+Rust
+a) Erro de compilação
+b) Posse (move): v é movido para a função dobra e não pode ser usado novamente depois 
+
+Python
+a) Ocorre UnboundLocalError, então não há saída numérica
+b) Escopo de variáveis: como total recebe valor dentro da função, o Python considera total uma variável local, mas ela é usada antes de receber valor localmente
